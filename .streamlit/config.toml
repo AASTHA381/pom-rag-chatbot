@@ -1,0 +1,10 @@
+# AskDocs — Streamlit configuration
+# Disable the module file-watcher so it doesn't try to import unrelated
+# optional libraries (e.g. transformers' vision models that need torchvision),
+# which produced noisy ModuleNotFoundError warnings on startup.
+[server]
+fileWatcherType = "none"
+headless = true
+
+[browser]
+gatherUsageStats = false
