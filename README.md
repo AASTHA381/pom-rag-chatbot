@@ -1,7 +1,7 @@
-# 📄 Chat with your Documents — RAG app
+# 📄 AskDocs — chat with your documents
 
 Upload your own documents (PDF, TXT, Markdown, CSV) and ask questions about
-them. The app retrieves the most relevant passages and answers with a hosted
+them. **AskDocs** retrieves the most relevant passages and answers with a hosted
 LLM, citing its sources. Embeddings run locally (fast on Apple Silicon);
 generation runs on Groq's fast hosted API. A bundled set of Operations
 Management notes is available as a one-click sample.

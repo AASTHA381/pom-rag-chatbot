@@ -1,6 +1,6 @@
 # Product Requirements Document (PRD)
 
-## Chat with your Documents — a lightweight RAG application
+## AskDocs — chat with your documents (a lightweight RAG application)
 
 | | |
 |---|---|
@@ -13,7 +13,7 @@
 
 ## 1. Overview
 
-**Chat with your Documents** is a Retrieval-Augmented Generation (RAG) web app
+**AskDocs** is a Retrieval-Augmented Generation (RAG) web app
 that lets anyone upload their own documents (PDF, TXT, Markdown, CSV) and ask
 natural-language questions about them. The app retrieves the most relevant
 passages from the uploaded content and uses a hosted large language model to

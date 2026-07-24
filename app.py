@@ -14,7 +14,7 @@ import config
 import rag
 import textutils
 
-st.set_page_config(page_title="Chat with your Documents", page_icon="📄")
+st.set_page_config(page_title="AskDocs", page_icon="📄")
 
 MAX_FILES = 20
 ACCEPTED = ["pdf", "txt", "md", "markdown", "csv"]
@@ -81,7 +81,8 @@ with st.sidebar:
 # --------------------------------------------------------------------------
 # Main area
 # --------------------------------------------------------------------------
-st.title("📄 Chat with your Documents")
+st.title("📄 AskDocs")
+st.caption("Ask questions, get answers grounded in your own documents — with sources cited.")
 
 if st.session_state.index is None:
     st.info(
